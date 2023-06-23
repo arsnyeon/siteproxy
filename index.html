@@ -133,7 +133,13 @@
       <div class="ico"><i class="fa-solid fa-code"></i></div>
       <div class="title">SiteProxy API</div>
       <div class="text">服务已正常运行</div>
-      <div class="tip">本服务为SPlayer项目提供音乐动力支持</div>
+      <div class="tip">本服务为SPlayer提供音乐动力支持</div>
+      <div class="control">
+        <button onclick="window.open(`https://music.arsn.cn/search/songs?keywords=%E6%9E%97%E4%BF%8A%E6%9D%B0&page=1`)">
+          <i class="fa-solid fa-vial"></i>
+          <span>测试接口</span>
+        </button>
+      </div>
     </main>
     <footer>
       <div class="social">
@@ -171,7 +177,7 @@
 
       // 按钮事件
       const clickFunction = () => {
-        window.location.href = "/search?keywords=海阔天空";
+        window.location.href = "https://music.arsn.cn/search/songs?keywords=%E6%9E%97%E4%BF%8A%E6%9D%B0&page=1";
       };
 
       // 社交链接跳转
